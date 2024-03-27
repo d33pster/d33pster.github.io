@@ -84,13 +84,13 @@ author:
   links:
     - title: GitHub
       url: https://github.com/d33pster
-      icon: github
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: GitHub
     url: https://github.com/d33pster
-    icon: github
+    icon: fab fa-github-square
   - title: Instagram
     url: https://instagram.com/blipdipp
-    icon: instagram
+    icon: fab fa-instagram-square
