@@ -56,7 +56,7 @@ plugins:
 #   - vendor/ruby/
 
 search_full_content: false
-logo: images/hehe.jpg
+logo: "images/hehe.jpeg"
 
 google_fonts:
   - name: "Source Sans Pro"
