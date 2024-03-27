@@ -18,22 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Soumyo Deep Gupta
+title: Optioner
 email: deep.main.ac@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  
-#baseurl: "" # the subpath of your site, e.g. /blog
+  Lightweight, easy to use, complex features - all in one argument parser.
+# baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: d33pster
 github_username:  d33pster
 
 # Build settings
-remote_theme: mmistakes/so-simple-theme
+# theme: just-the-docs
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,42 +52,51 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-search_full_content: false
-logo: "images/hehe.jpeg"
+remote_theme: "just-the-docs/just-the-docs"
 
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+  example:
+    title: Example
+    color: green
 
-markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
+enable_copy_code_button: true
 
-# Site Author
-author:
-  name: Soumyo Deep Gupta
-  picture:
-  email: deep.main.ac@gmail.com
-  twitter:
-  links:
-    - title: GitHub
-      url: https://github.com/d33pster
-      icon: fab fa-github-square
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub @d33pster":
+    - "https://github.com/d33pster"
 
-# Footer Links
-footer_links:
-  - title: GitHub
-    url: https://github.com/d33pster
-    icon: fab fa-github-square
-  - title: Instagram
-    url: https://instagram.com/blipdipp
-    icon: fab fa-instagram-square
+# External navigation links
+nav_external_links:
+  - title: d33pster.github.io
+    url: https://d33pster.github.io
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2024 Soumyo Deep Gupta. Distributed by an <a href=\"https://github.com/d33pster/optioner/tree/main/LICENSE\">MIT license.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
