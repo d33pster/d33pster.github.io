@@ -13,9 +13,8 @@ M.Tech (CSE spl. Big Data Analytics)  B.Tech (CSE)
 {: .fs-6 .fw-300 }
 
 [Linkedin][linkedin]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
-[GitHub][github]{: .btn .fs-5 .mb-4 .mb-md-0 }
-[Instagram][instagram]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
-[Email][email]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[Instagram][instagram]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[Email][email]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
 
 ---
 
