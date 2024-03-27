@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: d33pster.github.io
+title: Soumyo Deep Gupta
 email: deep.main.ac@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Digital Portfolio
+  
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -88,6 +88,9 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/d33pster
+    icon: github
+  - title: Instagram
+    url: https://instagram.com/blipdipp
+    icon: instagram
