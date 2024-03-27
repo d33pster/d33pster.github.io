@@ -30,7 +30,10 @@ github_username:  d33pster
 # Build settings
 remote_theme: mmistakes/so-simple-theme
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +54,40 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+search_full_content: false
+logo: images/hehe.jpg
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+
+markdown: kramdown
+
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+
+# Site Author
+author:
+  name: Soumyo Deep Gupta
+  picture:
+  email: deep.main.ac@gmail.com
+  twitter:
+  links:
+    - title: GitHub
+      url: https://github.com/d33pster
+      icon: github
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
