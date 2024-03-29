@@ -60,7 +60,7 @@ _9.8 CGPA_
 {: .highlight }
 The Coffee Smirk is an Alt/Rock Indian Musical Band Founded by [Soumyo Deep Gupta](https://instagram.com/bilpdipp) and [Arjun Solanki](https://instagram.com/arjunsinghsolanki_001) in 2019.
 
-- I am the main Keyboardist and lyricist for The Cofee Smitk
+- I am the main Keyboardist and lyricist for The Cofee Smirk
 - The Cofee Smirk is still active with our members spread across India.
 
 [Spotify][TCS_spotify]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
