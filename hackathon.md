@@ -12,7 +12,7 @@ This is the list of all the hackathons that I have taken part in.
 {: .fs-6 .fw-300 }
 
 ## Table of Contents
-{: no_toc .text-delta }
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
@@ -20,6 +20,7 @@ This is the list of all the hackathons that I have taken part in.
 ---
 
 ## Factory Fix: Hacking Industrial Challenges
+
 > By Wikiprospects, Bengaluru and VIT Chennai
 
 Factory Fix is a 48 hour make-a-thon for MTech/MCA students in VIT Chennai, organized by WIKIPROSPECTS.
