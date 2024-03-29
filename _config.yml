@@ -53,6 +53,7 @@ plugins:
 #   - vendor/ruby/
 
 remote_theme: "just-the-docs/just-the-docs"
+# theme: just-the-docs
 
 callouts_level: quiet # or loud
 callouts:
