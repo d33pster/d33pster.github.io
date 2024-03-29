@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hackathons
-nav_order: 5
+nav_order: 6
 permalink: /hackathons
 ---
 
@@ -23,7 +23,7 @@ This is the list of all the hackathons that I have taken part in.
 
 > By Wikiprospects, Bengaluru and VIT Chennai
 
-Factory Fix is a 48 hour make-a-thon for MTech/MCA students in VIT Chennai, organized by WIKIPROSPECTS.
+Factory Fix is a 48 hour make-a-thon for MTech/MCA students in VIT Chennai, organized by **WIKIPROSPECTS**.
 
 Both Problem Statement and proposed solution is on my GitHub
 
