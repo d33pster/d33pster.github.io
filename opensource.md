@@ -22,6 +22,26 @@ These are my contribution to the Open Source Community.
 
 ## PYPI
 
+### RepMan
+
+RepMan is a Repository Manager for GitHub written in python (for python projects at first, but now can be used for any type of projects.). You can easily manage your repositories with a single line of command, directly from the terminal.
+
+Constraints:
+- requires python>=3.12
+- requires Visual Studio Code and git installed and setup.
+
+For certain system architectures such as arm64 and aarch64, if Visual Studio Code and git is not installed, it will be automatically installed. However, setting up git (git login) needs to be done manually.
+
+{: .note }
+Git now discontinued support for command-line authentication and therefore, either setup git credential manager or install GitHub CLI to setup login for usage of private repos.
+
+{: .highlight }
+This is still experimental, please check the GitHub page for version info.
+
+Check it Out Here
+
+[GitHub][repman_github]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
+
 ### dsfx
 
 dsfx is a python module to create installer packages. The idea was to fix [pymakeself](https://github.com/gammazero/pymakeself) by [Andrew Gillis](https://github.com/gammazero), but dsfx turned out to be better than [pymakeself](https://github.com/gammazero/pymakeself) in many ways, such as:
@@ -81,6 +101,8 @@ dynalistTk is a basic module to create dynamic lists (Treeview) in using tkinter
 {: .highlight }
 dynalistTk latest release: _v1.2.1_
 
+Check it Out Here
+
 [GitHub][dynalistTk_github]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
 <!-- [Documentation][dynalistTk_doc]{: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
@@ -101,3 +123,4 @@ dynalistTk latest release: _v1.2.1_
 <!-- [s3ssion_doc]: https:/d33pster.github.io/s3ssion/ -->
 [dynalistTk_github]: https://github.com/d33pster/dynalistTk
 <!-- [dynalistTk_doc]: https://d33pster.github.io/dynalistTk/ -->
+[repman_github]: https://github.com/d33pster/RepMan
